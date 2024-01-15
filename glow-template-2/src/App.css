@@ -76,3 +76,44 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* COLOR STYLES */
+
+:root {
+  --color-1: #794c86;
+  --color-2: #ae98ac;
+  --color-3: #e4e6cf;
+  --color-4: #c699cc;
+  --color-5: #a543c1;
+  --color-6: #fbfaf8;
+  --text-color: #060606;
+}
+
+/* COMPONTENT STYLING */
+/* MOBILE FIRST */
+/* CONTAINER STYLING */
+.container1 {
+  max-width: 1920;
+  padding: 1em;
+  background-color: var(--color-3);
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* NAVIGATION COMPONENT */
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.top-menu-links-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+}
+
+.top-menu-links-container a {
+  text-decoration: none;
+  color: var(--text-color);
+}
