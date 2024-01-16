@@ -1,6 +1,6 @@
 import React from "react";
 
-function Container({ children }) {
+function Container1({ children }) {
   return (
     <>
       <div className="container1">{children}</div>
@@ -8,4 +8,4 @@ function Container({ children }) {
   );
 }
 
-export default Container;
+export default Container1;

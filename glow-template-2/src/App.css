@@ -99,12 +99,25 @@ select {
   overflow: hidden; /* Hide overflowing content */
 }
 
+.container2 {
+  max-width: 1920;
+  padding: 1em;
+  background-color: var(--color-6);
+  overflow: hidden; /* Hide overflowing content */
+}
+
+/* ******************** */
 /* NAVIGATION COMPONENT */
+/* ******************** */
 
 .nav-container {
   display: flex;
   flex-direction: column;
   gap: 1em;
+}
+
+.nav-container h2 {
+  text-align: center;
 }
 
 .top-menu-links-container {
@@ -116,4 +129,180 @@ select {
 .top-menu-links-container a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+/* ************** */
+/* HERO COMPONENT */
+/* ************** */
+
+.hero-container {
+  position: relative;
+  padding-bottom: 16em;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  margin-top: 2em;
+}
+
+header h1 {
+  text-align: left; /* Align the text inside h1 to the left */
+  line-height: 0.9;
+  font-size: 6.5rem;
+  z-index: 1000;
+}
+
+header p {
+  margin-top: 0.5em;
+  font-size: 1.1rem;
+  max-width: 280px;
+}
+
+/* header h1 span {
+  display: block;
+} */
+
+.img-container {
+  background-image: url(/hero-img.png);
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  width: 130%;
+  height: 92%;
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: 2000;
+}
+
+/* **************** */
+/* SOCIAL COMPONENT */
+/* **************** */
+
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.social-icon {
+  width: 40px;
+  cursor: pointer;
+}
+
+/* *************** */
+/* ABOUT COMPONENT */
+/* *************** */
+
+.top-block P {
+  margin-top: 1em;
+}
+
+.bottom-block-img {
+  margin: 1em 0 1em 0;
+  width: 100%;
+}
+
+button {
+  margin-top: 1em;
+}
+
+/* ********************** */
+/* ENDORESMENTS COMPONENT */
+/* ********************** */
+
+.endorsements-container {
+  margin-top: 1em;
+}
+
+.endorsement-1-box,
+.endorsement-2-box {
+  margin-top: 1em;
+}
+
+.endorsement-1-box p,
+.endorsement-2-box p {
+  margin-top: 0.5em;
+}
+
+/* ********************** */
+/* BENEFITS COMPONENT */
+/* ********************** */
+
+/* ********************** */
+/* RESULTS COMPONENT */
+/* ********************** */
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.results-top-block p,
+.results-bottom-block p {
+  margin: 0.5em 0;
+}
+
+/* ******************* */
+/* WORKEDFOR COMPONENT */
+/* ******************* */
+
+.workedFor-container {
+  margin-top: 2em;
+}
+
+.inner-workedfor-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work-icon {
+  width: 100px;
+}
+
+/* ************ */
+/* ************ */
+/* BREAK POINTS */
+/* ************ */
+/* ************ */
+
+/* HERO ADJUSTMENT */
+@media (min-width: 598px) and (max-width: 767px) {
+  header h1 {
+    font-size: 8rem;
+  }
+}
+
+/* SMALL TABLETS */
+@media (min-width: 768px) and (max-width: 991px) {
+  header h1 {
+    font-size: 9rem;
+  }
+}
+
+/* LARGE TABLETS / LAPTOPS */
+@media (min-width: 992px) and (max-width: 1199px) {
+  header h1 {
+    font-size: 9rem;
+  }
+}
+
+/* DESKTOPS */
+@media (min-width: 1200px) and (max-width: 1919px) {
+  header h1 {
+    font-size: 9rem;
+  }
+}
+
+/* EXTRA LARGE SCREENS */
+@media (min-width: 1920px) {
+  header h1 {
+    font-size: 9rem;
+  }
 }
