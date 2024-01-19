@@ -78,3 +78,29 @@ select {
 }
 
 /* GLOBAL STYLING */
+
+/* CONTAINER STYLING */
+
+.container {
+  max-width: 1920px;
+  padding: 1em;
+  background-color: var(--color-3);
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.container1 {
+  margin: 0 auto;
+
+  max-width: 1199px;
+  padding: 1em;
+  background-color: var(--color-3);
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.container2 {
+  margin: 0 auto;
+  max-width: 1199px;
+  padding: 1em;
+  background-color: var(--color-6);
+  overflow: hidden; /* Hide overflowing content */
+}

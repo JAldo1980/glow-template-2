@@ -1,4 +1,5 @@
 import React from "react";
+import Container from "./component/Container";
 import Container1 from "./component/Container1";
 import Container2 from "./component/Container2";
 import Nav from "./component/Nav";
@@ -16,10 +17,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Container1>
+      <Container>
         <Nav />
         <Hero />
-      </Container1>
+      </Container>
       <Container2>
         <Social />
       </Container2>
