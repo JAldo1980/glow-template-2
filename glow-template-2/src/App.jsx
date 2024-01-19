@@ -6,8 +6,10 @@ import Hero from "./component/Hero";
 import Social from "./component/Social";
 import About from "./component/About";
 import Endoresments from "./component/Endoresments";
+import Benefits from "./component/Benefits";
 import Results from "./component/Results";
 import WorkedFor from "./component/WorkedFor";
+import Footer from "./component/Footer";
 
 import "./App.css";
 
@@ -28,10 +30,16 @@ function App() {
         <Endoresments />
       </Container2>
       <Container1>
-        <Results />
+        <Benefits />
       </Container1>
       <Container2>
+        <Results />
+      </Container2>
+      <Container1>
         <WorkedFor />
+      </Container1>
+      <Container2>
+        <Footer />
       </Container2>
     </>
   );

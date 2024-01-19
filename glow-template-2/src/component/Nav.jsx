@@ -8,7 +8,7 @@ function Nav() {
         <div className="top-menu-links-container">
           <a href="#">About</a>
           <a href="#">Results</a>
-          <a href="#">How I can help you?</a>
+          <a href="#">How I will help you</a>
         </div>
       </div>
     </>

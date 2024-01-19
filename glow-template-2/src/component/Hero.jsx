@@ -9,7 +9,11 @@ function Hero() {
             Olivia <span>Wilson</span>
           </h1>
           <p>
-            Performance Marketer | Elevating Brands and Driving Results.
+            <strong>
+              Performance Marketer | Elevating Brands and Driving Results.
+            </strong>
+          </p>
+          <p>
             Committed to crafting innovative marketing strategies that resonate
             with audiences.
           </p>

@@ -4,10 +4,25 @@ function Social() {
   return (
     <>
       <div className="social-container">
-        <img src="twitter.png" className="social-icon" alt="x icon" />
-        <img src="linkedin.png" className="social-icon" alt="linkedin icon" />
-        <img src="instagram.png" className="social-icon" alt="instagram icon" />
-        <img src="tiktok.png" className="social-icon" alt="tiktok icon" />
+        <a href="#">
+          <img src="twitter.png" className="social-icon" alt="x icon" />
+        </a>
+
+        <a href="#">
+          <img src="linkedin.png" className="social-icon" alt="linkedin icon" />
+        </a>
+
+        <a href="#">
+          <img
+            src="instagram.png"
+            className="social-icon"
+            alt="instagram icon"
+          />
+        </a>
+
+        <a href="#">
+          <img src="tiktok.png" className="social-icon" alt="tiktok icon" />
+        </a>
       </div>
     </>
   );

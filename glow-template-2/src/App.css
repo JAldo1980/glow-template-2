@@ -35,6 +35,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
@@ -202,13 +203,35 @@ header p {
   margin-top: 1em;
 }
 
+.top-block h2 {
+  font-size: 2rem;
+}
+
 .bottom-block-img {
   margin: 1em 0 1em 0;
   width: 100%;
+  border-radius: 8px;
+}
+
+.button-container {
+  display: flex;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+blockquote h4 {
+  margin-top: 1em;
 }
 
 button {
-  margin-top: 1em;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
 }
 
 /* ********************** */
@@ -217,6 +240,10 @@ button {
 
 .endorsements-container {
   margin-top: 1em;
+}
+
+.endorsements-container h2 {
+  font-size: 2rem;
 }
 
 .endorsement-1-box,
@@ -233,6 +260,18 @@ button {
 /* BENEFITS COMPONENT */
 /* ********************** */
 
+.benefits-box {
+  margin-top: 1em;
+}
+
+.benefits-box h4 {
+  font-size: 1.2rem;
+}
+
+.benefits-box p {
+  margin-top: 1em;
+}
+
 /* ********************** */
 /* RESULTS COMPONENT */
 /* ********************** */
@@ -243,17 +282,25 @@ button {
   gap: 1em;
 }
 
+.results-container h2 {
+  font-size: 2rem;
+}
+
 .results-top-block p,
 .results-bottom-block p {
   margin: 0.5em 0;
+}
+
+.results-top-block h4 {
+  font-size: 1.2rem;
 }
 
 /* ******************* */
 /* WORKEDFOR COMPONENT */
 /* ******************* */
 
-.workedFor-container {
-  margin-top: 2em;
+.workedFor-container h2 {
+  font-size: 2em;
 }
 
 .inner-workedfor-container {
@@ -264,6 +311,28 @@ button {
 
 .work-icon {
   width: 100px;
+}
+
+/* **************** */
+/* FOOTER COMPONENT */
+/* **************** */
+
+.footer-container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.footer-text {
+  text-align: centers;
+  text-align: center;
+  margin-top: 1em;
 }
 
 /* ************ */
@@ -283,6 +352,24 @@ button {
 @media (min-width: 768px) and (max-width: 991px) {
   header h1 {
     font-size: 9rem;
+  }
+  /* ABOUT COMPONENT */
+  .about-container {
+    display: flex;
+    gap: 2em;
+  }
+  /* ENDORSEMENT COMPONENT */
+  .inner-endorsement-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+  }
+
+  /* RESULTS COMPONENTS */
+  .inner-results-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
   }
 }
 
