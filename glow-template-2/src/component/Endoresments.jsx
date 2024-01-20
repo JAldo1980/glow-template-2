@@ -13,9 +13,11 @@ function Endorsements() {
                 have been transformative for our brand. Her innovative approach
                 has set new standards in performance marketing."
               </h4>
+            </div>
+            <div className="endorsement-image-box">
+              <img className="avatar-img" src="avatar-2.png" alt="" />
               <p>- Mark Thompson, CEO of Digital Dynamics</p>
             </div>
-            <img className="avatar-img" src="avatar-2.png" alt="" />
           </div>
           <div className="endorsement-2-box">
             <div className="endorsement-text-box">
@@ -24,9 +26,11 @@ function Endorsements() {
                 dedication to excellence and creative mindset have significantly
                 impacted our marketing outcomes."
               </h4>
+            </div>
+            <div className="endorsement-image-box">
+              <img className="avatar-img" src="avatar-1.png" alt="" />
               <p>- Sarah Adams, CMO of Visionary Ventures</p>
             </div>
-            <img className="avatar-img" src="avatar-1.png" alt="" />
           </div>
         </div>
       </div>

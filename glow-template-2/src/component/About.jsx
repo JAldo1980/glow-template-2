@@ -34,21 +34,23 @@ function About() {
               </em>
             </h4>
           </blockquote>
+          <p>
+            Embark on this journey with me, as we navigate the ever-evolving
+            realm of performance marketing, shaping a future where brands thrive
+            and make a lasting impact on their audiences.
+          </p>
+          <div className="button-container">
+            <button>
+              <a href="#">Getting Results</a>
+            </button>
+          </div>
         </div>
         <div className="bottom-block">
-          <img src="woman-3.png" className="bottom-block-img" alt="" />
-          <div className="bottom-block-card">
-            <p>
-              Embark on this journey with me, as we navigate the ever-evolving
-              realm of performance marketing, shaping a future where brands
-              thrive and make a lasting impact on their audiences.
-            </p>
-            <div className="button-container">
-              <button>
-                <a href="#">Getting Results</a>
-              </button>
-            </div>
-          </div>
+          <img
+            src="woman-3.png"
+            className="bottom-block-img"
+            alt="professional woman sitting at her work desk"
+          />
         </div>
       </div>
     </>
