@@ -34,17 +34,17 @@ function Results() {
           <div className="results-bottom-block">
             <h3>Success Stories</h3>
             <p>
-              Orchestrated successful marketing initiatives for over 50 brands,
-              resulting in a cumulative revenue growth of $50 million over the
-              past five years.
+              ✔️ Orchestrated successful marketing initiatives for over 50
+              brands, resulting in a cumulative revenue growth of $50 million
+              over the past five years.
             </p>
             <p>
-              Elevated brand engagement by implementing data-driven strategies,
-              contributing to a 25% increase in customer retention for client
-              businesses.
+              ✔️ Elevated brand engagement by implementing data-driven
+              strategies, contributing to a 25% increase in customer retention
+              for client businesses.
             </p>
             <p>
-              Pioneered diversity and inclusion programs, leading to a 40%
+              ✔️ Pioneered diversity and inclusion programs, leading to a 40%
               increase in diverse hires and fostering a workplace culture that
               values uniqueness.
             </p>

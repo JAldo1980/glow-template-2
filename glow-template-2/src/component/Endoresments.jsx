@@ -7,22 +7,26 @@ function Endorsements() {
         <h2>Happy People</h2>
         <div className="inner-endorsement-container">
           <div className="endorsement-1-box">
-            <h4>
-              "Olivia's strategic prowess and unwavering commitment to success
-              have been transformative for our brand. Her innovative approach
-              has set new standards in performance marketing."
-            </h4>
-            <p>- Mark Thompson, CEO of Digital Dynamics</p>
-            <img src="" alt="" />
+            <div className="endorsement-text-box">
+              <h4>
+                "Olivia's strategic prowess and unwavering commitment to success
+                have been transformative for our brand. Her innovative approach
+                has set new standards in performance marketing."
+              </h4>
+              <p>- Mark Thompson, CEO of Digital Dynamics</p>
+            </div>
+            <img className="avatar-img" src="avatar-2.png" alt="" />
           </div>
           <div className="endorsement-2-box">
-            <h4>
-              "Working with Olivia was a game-changer for our company. Her
-              dedication to excellence and creative mindset have significantly
-              impacted our marketing outcomes."
-            </h4>
-            <p>- Sarah Adams, CMO of Visionary Ventures</p>
-            <img src="" alt="" />
+            <div className="endorsement-text-box">
+              <h4>
+                "Working with Olivia was a game-changer for our company. Her
+                dedication to excellence and creative mindset have significantly
+                impacted our marketing outcomes."
+              </h4>
+              <p>- Sarah Adams, CMO of Visionary Ventures</p>
+            </div>
+            <img className="avatar-img" src="avatar-1.png" alt="" />
           </div>
         </div>
       </div>
