@@ -93,7 +93,7 @@ select {
   padding: 1em;
   background-color: var(--background);
   overflow: hidden; /* Hide overflowing content */
-  border-bottom: 8px solid #dd5d55;
+  border-bottom: 4px solid #dd5d55;
 }
 
 .container1 {

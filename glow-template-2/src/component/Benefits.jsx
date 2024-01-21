@@ -3,7 +3,7 @@ import React from "react";
 function Benefits() {
   return (
     <>
-      <div className="benefits-container">
+      <div className="benefits-container" id="benefits">
         <h2>Benefits</h2>
         <div className="benefits-box">
           <h4>Proven Results and Revenue Growth</h4>

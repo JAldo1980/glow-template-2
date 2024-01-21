@@ -3,7 +3,7 @@ import React from "react";
 function Results() {
   return (
     <>
-      <div className="results-container">
+      <div className="results-container" id="results">
         <h2>Results</h2>
         <div className="inner-results-container">
           <div className="results-top-block">

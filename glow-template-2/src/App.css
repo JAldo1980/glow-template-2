@@ -369,6 +369,9 @@ button a {
   header h1 {
     font-size: 8rem;
   }
+  header p {
+    max-width: 380px;
+  }
 }
 
 /* SMALL TABLETS */
@@ -378,6 +381,11 @@ button a {
   header h1 {
     font-size: 9rem;
   }
+
+  header p {
+    max-width: 400px;
+  }
+
   /* ABOUT COMPONENT */
   .about-container {
     display: flex;
@@ -407,6 +415,10 @@ button a {
 @media (min-width: 992px) and (max-width: 1199px) {
   header h1 {
     font-size: 14rem;
+  }
+
+  header p {
+    max-width: 500px;
   }
 
   /* HERO COMPONENT */
