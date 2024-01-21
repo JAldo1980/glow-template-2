@@ -14,9 +14,11 @@ function Hero() {
                 Performance Marketer | Elevating Brands and Driving Results.
               </strong>
             </p>
-            <p>
-              Committed to crafting innovative marketing strategies that
-              resonate with audiences.
+            <p className="lower-paragraph">
+              <em>
+                "Committed to crafting innovative marketing strategies that
+                resonate with audiences."
+              </em>
             </p>
           </div>
         </header>

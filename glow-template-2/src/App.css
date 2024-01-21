@@ -128,7 +128,7 @@ select {
 .hero-container {
   margin-top: 2em;
   position: relative;
-  padding-bottom: 16em;
+  padding-bottom: 11.5em;
   display: flex;
   justify-content: center;
 }
@@ -153,9 +153,16 @@ header p {
   max-width: 280px;
 }
 
-/* header h1 span {
-  display: block;
-} */
+header h1 span {
+  color: var(--button-color);
+}
+
+.lower-paragraph {
+  background-color: var(--button-color);
+  padding: 0.5em;
+  border-radius: 8px;
+  color: white;
+}
 
 .img-container {
   background-image: url(/hero-img.png);
