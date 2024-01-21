@@ -158,7 +158,7 @@ header h1 span {
 }
 
 .lower-paragraph {
-  background-color: var(--button-color);
+  background-color: var(--box-color);
   padding: 0.5em;
   border-radius: 8px;
   color: white;
@@ -220,7 +220,7 @@ blockquote h4 {
   margin-top: 1em;
 }
 
-button {
+.button-container-inner {
   border: none;
   border-radius: 8px;
   padding: 0.5em 1.5em;
@@ -228,7 +228,7 @@ button {
   background-color: var(--button-color);
 }
 
-button a {
+.button-container-inner a {
   text-decoration: none;
   color: white;
   font-weight: bold;

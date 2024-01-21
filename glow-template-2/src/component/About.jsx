@@ -1,4 +1,5 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
 
 function About() {
   return (
@@ -40,9 +41,18 @@ function About() {
             and make a lasting impact on their audiences.
           </p>
           <div className="button-container">
-            <button>
-              <a href="#">Getting Results</a>
-            </button>
+            <div className="button-container-inner">
+              <ScrollLink
+                activeClass="active"
+                to="results"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Getting Results
+              </ScrollLink>
+            </div>
           </div>
         </div>
         <div className="bottom-block">
