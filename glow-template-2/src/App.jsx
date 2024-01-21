@@ -10,6 +10,7 @@ import Endoresments from "./component/Endoresments";
 import Benefits from "./component/Benefits";
 import Results from "./component/Results";
 import WorkedFor from "./component/WorkedFor";
+import Contact from "./component/Contact";
 import Footer from "./component/Footer";
 
 import "./App.css";
@@ -39,6 +40,9 @@ function App() {
       <Container1>
         <WorkedFor />
       </Container1>
+      <Container2>
+        <Contact />
+      </Container2>
       <Container2>
         <Footer />
       </Container2>
