@@ -412,7 +412,7 @@ textarea {
 /* form error styling */
 
 .error-message {
-  color: var(--highlight-text);
+  color: var(--button-color);
 }
 
 /* **************** */

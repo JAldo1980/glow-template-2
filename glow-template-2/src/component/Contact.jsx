@@ -5,7 +5,7 @@ function Contact() {
   return (
     <>
       <div className="contact-container" id="contact">
-        <h2>Let's Connect</h2>
+        <h2>Contact Me</h2>
         <ContactForm />
       </div>
     </>
